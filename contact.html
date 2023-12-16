@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Contact Us</title>
+    <style>
+        /* body {
+            font-family: 'Arial', sans-serif;
+            background-color: #704f4f;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        } */
+
+        .contact-form {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 400px;
+            margin: auto;
+            transition: transform 0.3s;
+        }
+
+        .contact-form:hover {
+            transform: scale(1.02);
+        }
+
+        .contact-form h2 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-form p {
+            color: #666;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #4caf50;
+        }
+
+        .contact-form button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            color: #555;
+            line-height: 1.5;
+        }
+        * {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #C19A6B
+  
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Copperplate, Papyrus, fantasy;
+  color: #FFF0F5;
+}
+
+.header a:hover {
+  background-color: #ddb6b6;
+  color: black;
+}
+
+.header a.active {
+  background-color: rgb(19, 144, 96);
+  color: rgb(223, 228, 235);
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+ 
+    /* FOOTER style */
+    footer {
+            background: linear-gradient(to right, #333, #1a1a1a);
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .footer-links li {
+            margin: 0 15px;
+        }
+
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #ff4500;
+        }
+
+        .footer-social-icons {
+            margin-top: 20px;
+        }
+
+        .footer-social-icons a {
+            display: inline-block;
+            margin: 0 12px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-social-icons a:hover {
+            color: #ff4500;
+        }
+
+        /* Additional styles for responsiveness */
+        @media screen and (max-width: 600px) {
+            footer {
+                padding: 20px 0;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">ROYAL DESTINATIONS</a>
+        <div class="header-right">
+          <a  href="HOME.HTML">Home</a>
+        <a href="Services.html">Services</a>
+          <!-- <a herf="Booking.html">Booking</a> -->
+          <a href="login.html">login</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+      
+      
+        </div>
+      </div>
+      <br>
+      <br>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <p>We are thrilled to assist you with any inquiries you may have. Please feel free to reach out to us through the contact form below, and we will get back to you as soon as possible.</p>
+
+        <form action="HOME.HTML" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+                <strong>Address:</strong>  Jaipur, Rajasthan<br>
+                <strong>Email:</strong> info@royaldestination.com<br>
+                <strong>Phone:</strong> +1 (123) 456-7890
+            </p>
+        </div>
+    </div>
+
+</body>
+<br>
+<br>
+<footer>
+    <!-- Footer content -->
+    <p>&copy; 2023 ROYAL DESTINATIONS</p>
+
+    <ul class="footer-links">
+       
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="term and condition .html">Term and conditions</a></li>
+        
+    </ul>
+    <div class="footer-social-icons">
+      <a href="https://www.facebook.com/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com/" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+</html>
+
